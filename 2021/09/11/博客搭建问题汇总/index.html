@@ -19,7 +19,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"manual","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="分享搭建博客时遇到的各种问题解决方案和五花八门的功能实现方式">
@@ -30,7 +30,7 @@
 <meta property="og:description" content="分享搭建博客时遇到的各种问题解决方案和五花八门的功能实现方式">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2021-09-11T11:42:36.264Z">
-<meta property="article:modified_time" content="2021-09-11T11:57:50.653Z">
+<meta property="article:modified_time" content="2021-09-11T12:57:56.840Z">
 <meta property="article:author" content="MUJINCHAORONG">
 <meta name="twitter:card" content="summary">
 
@@ -216,7 +216,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2021-09-11 19:42:36 / 修改时间：19:57:50" itemprop="dateCreated datePublished" datetime="2021-09-11T19:42:36+08:00">2021-09-11</time>
+              <time title="创建时间：2021-09-11 19:42:36 / 修改时间：20:57:56" itemprop="dateCreated datePublished" datetime="2021-09-11T19:42:36+08:00">2021-09-11</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -228,13 +228,20 @@
                 </span>
             </span>
 
-          
-            <span class="post-meta-item" title="阅读次数" id="busuanzi_container_page_pv" style="display: none;">
+          <br>
+            <span class="post-meta-item" title="本文字数">
               <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
+                <i class="far fa-file-word"></i>
               </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span id="busuanzi_value_page_pv"></span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>1.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -249,9 +256,11 @@
         <p>分享搭建博客时遇到的各种问题解决方案和五花八门的功能实现方式</p>
 <span id="more"></span>
 
-<p>这个博客是由hexo+next搭建完成的，很多功能待完善，比如添加评论功能、浏览统计、博文目录一览等，后续会慢慢更新~</p>
+<p>本博客是由hexo-next搭建完成，搭建环境为win10.</p>
+<p>hexo版本：5.4.0</p>
+<p>next版本：7.8.0</p>
 <h2 id="hexo上传博文"><a href="#hexo上传博文" class="headerlink" title="hexo上传博文"></a>hexo上传博文</h2><p>在hexo的根目录<code>/blog</code>下运行bash，依次执行下列命令：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
 
 <p>接着就可以使用<code>https://mujinchaorong-caeser.github.io/</code>网址查看我的博客啦。（ps：github更新有延迟，可能需要上传后再等几分钟，才能看到更改后的效果。）</p>
 <h2 id="hexo添加分类及标签"><a href="#hexo添加分类及标签" class="headerlink" title="hexo添加分类及标签"></a>hexo添加分类及标签</h2><p>参考链接：<a target="_blank" rel="noopener" href="https://tohugo.com/2021/01/26/%E5%B7%A5%E5%85%B7%E9%85%8D%E7%BD%AE/Hexo%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE%EF%BC%88%E5%9C%A8Next%E4%B8%BB%E9%A2%98%E4%B8%8B%EF%BC%89/">Hexo添加分类及标签（在Next主题下）</a></p>
@@ -259,10 +268,21 @@
 <li><p>在本机上用markdown编辑器写好博文后，保存到<code>/blog/source/_posts</code>下，名为<code>xxx.md</code>。此处的<code>/blog</code>是我hexo的根目录。</p>
 </li>
 <li><p>用sublime打开该博文，并在开头添加标题、分类等信息，然后上传博文即可。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: xxxxx</span><br><span class="line">categories:</span><br><span class="line"> - xxx</span><br><span class="line">---</span><br></pre></td></tr></table></figure></li>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: xxxxx</span><br><span class="line">categories:</span><br><span class="line"><span class="section"> - xxx</span></span><br><span class="line"><span class="section">---</span></span><br></pre></td></tr></table></figure></li>
 </ol>
 <h2 id="生成摘要"><a href="#生成摘要" class="headerlink" title="生成摘要"></a>生成摘要</h2><p>摘要可以自动生成或者手动生成，但我个人不喜欢自动生成的摘要。所以这里只分享手动文章摘要设置，我们只需在想显示为摘要的内容之后添加<code>&lt;!-- more --&gt;</code>即可。像下面这样：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: hello world</span><br><span class="line">data: 2021-9-11</span><br><span class="line">tags:</span><br><span class="line"> - hello</span><br><span class="line">---</span><br><span class="line">我是短小精悍的文章摘要(*^▽^*)</span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line">文章正文</span><br></pre></td></tr></table></figure>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: hello world</span><br><span class="line">data: 2021-9-11</span><br><span class="line">tags:</span><br><span class="line"><span class="section"> - hello</span></span><br><span class="line"><span class="section">---</span></span><br><span class="line">我是短小精悍的文章摘要(<span class="emphasis">*^▽^*</span>)</span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line">文章正文</span><br></pre></td></tr></table></figure>
+
+<h2 id="生成博文目录"><a href="#生成博文目录" class="headerlink" title="生成博文目录"></a>生成博文目录</h2><p>参考链接：<a target="_blank" rel="noopener" href="https://tding.top/archives/2bd6d82.html">next7.7.0后的特性与变化</a></p>
+<p>在很多网上教程里，目录功能都需要在<code>hexo/next/source/css/_custom/_custom.styl</code>里修改，但是next7.7.0之后，很多文件都发生了改变，这个文件就已经找不到啦。所以真正的做法是在<code>blog/source/_data</code>创建<code>styles.styl</code>文件，并在文件中加入：</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//TOC目录默认全部展开</span></span><br><span class="line"><span class="selector-class">.post-toc</span> <span class="selector-class">.nav</span> <span class="selector-class">.nav-child</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: block;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>然后去主题配置文件中关闭目录的数字编号：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">toc:</span></span><br><span class="line">	<span class="attr">number:</span> <span class="literal">false</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="开启字数与阅读时长统计"><a href="#开启字数与阅读时长统计" class="headerlink" title="开启字数与阅读时长统计"></a>开启字数与阅读时长统计</h2><p>在hexo根目录下bash执行<code>npm install hexo-symbols-count-time</code></p>
+<p>修改主题配置文件：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">symbols_count_time:</span></span><br><span class="line">  <span class="attr">separated_meta:</span> <span class="literal">true</span> <span class="comment"># 是否换行显示 字数统计 及 阅读时长</span></span><br><span class="line">  <span class="attr">item_text_post:</span> <span class="literal">true</span> <span class="comment"># 文章 字数统计 阅读时长 使用图标 还是 文本表示</span></span><br><span class="line">  <span class="attr">item_text_total:</span> <span class="literal">false</span> <span class="comment"># 博客底部统计 字数统计 阅读时长 使用图标 还是 文本表示</span></span><br></pre></td></tr></table></figure>
 
 
     </div>
@@ -358,7 +378,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo%E4%B8%8A%E4%BC%A0%E5%8D%9A%E6%96%87"><span class="nav-number">1.</span> <span class="nav-text">hexo上传博文</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE"><span class="nav-number">2.</span> <span class="nav-text">hexo添加分类及标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo%E6%B7%BB%E5%8A%A0%E5%8D%9A%E6%96%87"><span class="nav-number">3.</span> <span class="nav-text">hexo添加博文</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E6%91%98%E8%A6%81"><span class="nav-number">4.</span> <span class="nav-text">生成摘要</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo%E4%B8%8A%E4%BC%A0%E5%8D%9A%E6%96%87"><span class="nav-text">hexo上传博文</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE"><span class="nav-text">hexo添加分类及标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo%E6%B7%BB%E5%8A%A0%E5%8D%9A%E6%96%87"><span class="nav-text">hexo添加博文</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E6%91%98%E8%A6%81"><span class="nav-text">生成摘要</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%94%9F%E6%88%90%E5%8D%9A%E6%96%87%E7%9B%AE%E5%BD%95"><span class="nav-text">生成博文目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E5%90%AF%E5%AD%97%E6%95%B0%E4%B8%8E%E9%98%85%E8%AF%BB%E6%97%B6%E9%95%BF%E7%BB%9F%E8%AE%A1"><span class="nav-text">开启字数与阅读时长统计</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -421,61 +441,23 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">MUJINCHAORONG</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+    <span title="站点总字数">2k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">2 分钟</span>
 </div>
+
+<!--
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
-
-
-    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-    <span id="busuanzi_container_site_pv">总访问量<span id="busuanzi_value_site_pv"></span>次</span>
-    <span class="post-meta-divider">|</span>
-    <span id="busuanzi_container_site_uv">总访客数<span id="busuanzi_value_site_uv"></span>人</span>
-    <span class="post-meta-divider">|</span>
-<!-- 不蒜子计数初始值纠正 -->
-<script>
-$(document).ready(function() {
-
-    var int = setInterval(fixCount, 50);  // 50ms周期检测函数
-    var countOffset = 20000;  // 初始化首次数据
-
-    function fixCount() {            
-       if (document.getElementById("busuanzi_container_site_pv").style.display != "none")
-        {
-            $("#busuanzi_value_site_pv").html(parseInt($("#busuanzi_value_site_pv").html()) + countOffset); 
-            clearInterval(int);
-        }                  
-        if ($("#busuanzi_container_site_pv").css("display") != "none")
-        {
-            $("#busuanzi_value_site_uv").html(parseInt($("#busuanzi_value_site_uv").html()) + countOffset); // 加上初始数据 
-            clearInterval(int); // 停止检测
-        }  
-    }
+-->
         
-});
-</script> 
-
-        
-<div class="busuanzi-count">
-  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-    <span class="post-meta-item" id="busuanzi_container_site_uv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-user"></i>
-      </span>
-      <span class="site-uv" title="总访客量">
-        <span id="busuanzi_value_site_uv"></span>
-      </span>
-    </span>
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item" id="busuanzi_container_site_pv" style="display: none;">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-eye"></i>
-      </span>
-      <span class="site-pv" title="总访问量">
-        <span id="busuanzi_value_site_pv"></span>
-      </span>
-    </span>
-</div>
 
 
 
