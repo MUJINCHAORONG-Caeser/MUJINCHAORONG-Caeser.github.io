@@ -206,7 +206,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/09/11/Git%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/" class="post-title-link" itemprop="url">未命名</a>
+            <a href="/2021/09/11/Git%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/" class="post-title-link" itemprop="url">Git使用问题</a>
         </h2>
 
         <div class="post-meta">
@@ -217,8 +217,9 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2021-09-11 19:23:10" itemprop="dateCreated datePublished" datetime="2021-09-11T19:23:10+08:00">2021-09-11</time>
+              <time title="创建时间：2021-09-11 19:23:10 / 修改时间：19:25:10" itemprop="dateCreated datePublished" datetime="2021-09-11T19:23:10+08:00">2021-09-11</time>
             </span>
 
           
@@ -232,7 +233,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Git使用问题"><a href="#Git使用问题" class="headerlink" title="Git使用问题"></a>Git使用问题</h1><h2 id="Git-clone连接超时"><a href="#Git-clone连接超时" class="headerlink" title="Git clone连接超时"></a>Git clone连接超时</h2><p>环境：win10，使用了梯子在git bash下进行<code>git clone</code>，结果报错：</p>
+          <h2 id="Git-clone连接超时"><a href="#Git-clone连接超时" class="headerlink" title="Git clone连接超时"></a>Git clone连接超时</h2><p>环境：win10，使用了梯子在git bash下进行<code>git clone</code>，结果报错：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fatal: unable to access &#x27;https://github.com/xxx.git/&#x27;: Failed to connect to github.com port 443: Timed out</span><br></pre></td></tr></table></figure>
 
 <p>解决方法：配置git的代理。我使用的梯子是clash for windows，在<code>Genaral</code>栏中能查看代理端口为7890.</p>

@@ -4,11 +4,11 @@
   
     
     <entry>
-      <title></title>
+      <title>Git使用问题</title>
       <link href="/2021/09/11/Git%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/"/>
       <url>/2021/09/11/Git%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/</url>
       
-        <content type="html"><![CDATA[<h1 id="Git使用问题"><a href="#Git使用问题" class="headerlink" title="Git使用问题"></a>Git使用问题</h1><h2 id="Git-clone连接超时"><a href="#Git-clone连接超时" class="headerlink" title="Git clone连接超时"></a>Git clone连接超时</h2><p>环境：win10，使用了梯子在git bash下进行<code>git clone</code>，结果报错：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fatal: unable to access &#x27;https://github.com/xxx.git/&#x27;: Failed to connect to github.com port 443: Timed out</span><br></pre></td></tr></table></figure><p>解决方法：配置git的代理。我使用的梯子是clash for windows，在<code>Genaral</code>栏中能查看代理端口为7890.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy &quot;127.0.0.1:7890&quot;</span><br><span class="line">git config --global http.proxy &quot;127.0.0.1:7890&quot;</span><br></pre></td></tr></table></figure><p>配置完后，梯子要使用开着，再使用<code>git clone</code>就没有问题了。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="Git-clone连接超时"><a href="#Git-clone连接超时" class="headerlink" title="Git clone连接超时"></a>Git clone连接超时</h2><p>环境：win10，使用了梯子在git bash下进行<code>git clone</code>，结果报错：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">fatal: unable to access &#x27;https://github.com/xxx.git/&#x27;: Failed to connect to github.com port 443: Timed out</span><br></pre></td></tr></table></figure><p>解决方法：配置git的代理。我使用的梯子是clash for windows，在<code>Genaral</code>栏中能查看代理端口为7890.</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global http.proxy &quot;127.0.0.1:7890&quot;</span><br><span class="line">git config --global http.proxy &quot;127.0.0.1:7890&quot;</span><br></pre></td></tr></table></figure><p>配置完后，梯子要使用开着，再使用<code>git clone</code>就没有问题了。</p>]]></content>
       
       
       
