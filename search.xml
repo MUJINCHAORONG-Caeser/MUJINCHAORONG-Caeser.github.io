@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>博客搭建问题汇总</title>
+      <link href="/2021/09/11/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/"/>
+      <url>/2021/09/11/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB/</url>
+      
+        <content type="html"><![CDATA[<p>分享搭建博客时遇到的各种问题解决方案和五花八门的功能实现方式</p><span id="more"></span><p>这个博客是由hexo+next搭建完成的，很多功能待完善，比如添加评论功能、浏览统计、博文目录一览等，后续会慢慢更新~</p><h2 id="hexo上传博文"><a href="#hexo上传博文" class="headerlink" title="hexo上传博文"></a>hexo上传博文</h2><p>在hexo的根目录<code>/blog</code>下运行bash，依次执行下列命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>接着就可以使用<code>https://mujinchaorong-caeser.github.io/</code>网址查看我的博客啦。（ps：github更新有延迟，可能需要上传后再等几分钟，才能看到更改后的效果。）</p><h2 id="hexo添加分类及标签"><a href="#hexo添加分类及标签" class="headerlink" title="hexo添加分类及标签"></a>hexo添加分类及标签</h2><p>参考链接：<a href="https://tohugo.com/2021/01/26/%E5%B7%A5%E5%85%B7%E9%85%8D%E7%BD%AE/Hexo%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE%EF%BC%88%E5%9C%A8Next%E4%B8%BB%E9%A2%98%E4%B8%8B%EF%BC%89/">Hexo添加分类及标签（在Next主题下）</a></p><h2 id="hexo添加博文"><a href="#hexo添加博文" class="headerlink" title="hexo添加博文"></a>hexo添加博文</h2><ol><li><p>在本机上用markdown编辑器写好博文后，保存到<code>/blog/source/_posts</code>下，名为<code>xxx.md</code>。此处的<code>/blog</code>是我hexo的根目录。</p></li><li><p>用sublime打开该博文，并在开头添加标题、分类等信息，然后上传博文即可。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: xxxxx</span><br><span class="line">categories:</span><br><span class="line"> - xxx</span><br><span class="line">---</span><br></pre></td></tr></table></figure></li></ol><h2 id="生成摘要"><a href="#生成摘要" class="headerlink" title="生成摘要"></a>生成摘要</h2><p>摘要可以自动生成或者手动生成，但我个人不喜欢自动生成的摘要。所以这里只分享手动文章摘要设置，我们只需在想显示为摘要的内容之后添加<code>&lt;!-- more --&gt;</code>即可。像下面这样：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: hello world</span><br><span class="line">data: 2021-9-11</span><br><span class="line">tags:</span><br><span class="line"> - hello</span><br><span class="line">---</span><br><span class="line">我是短小精悍的文章摘要(*^▽^*)</span><br><span class="line">&lt;!-- more --&gt;</span><br><span class="line">文章正文</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 实践真知 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git使用问题</title>
       <link href="/2021/09/11/Git%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/"/>
       <url>/2021/09/11/Git%E4%BD%BF%E7%94%A8%E9%97%AE%E9%A2%98/</url>
