@@ -4,6 +4,140 @@
   
     
     <entry>
+      <title>优质技术书单分享</title>
+      <link href="/2021/09/12/%E4%BC%98%E8%B4%A8%E6%8A%80%E6%9C%AF%E4%B9%A6%E5%8D%95%E5%88%86%E4%BA%AB/"/>
+      <url>/2021/09/12/%E4%BC%98%E8%B4%A8%E6%8A%80%E6%9C%AF%E4%B9%A6%E5%8D%95%E5%88%86%E4%BA%AB/</url>
+      
+        <content type="html"><![CDATA[<p>分享记录一些令我受益匪浅的技术文档链接~</p><span id="more"></span><p><a href="https://github.com/geeeeeeeeek/git-recipes">Git中文教程</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术文档 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2021/09/12/%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/"/>
+      <url>/2021/09/12/%E5%9B%BD%E5%86%85%E9%95%9C%E5%83%8F%E9%93%BE%E6%8E%A5%E6%B1%87%E6%80%BB/</url>
+      
+        <content type="html"><![CDATA[<hr><p>title：国内镜像链接汇总<br>tags：</p><ul><li>工具</li></ul><hr><p><a href="https://mirrors.ustc.edu.cn/">中科大</a>：各种iso镜像和工具汇总</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Pikachu靶场练习</title>
+      <link href="/2021/09/12/Pikachu%E9%9D%B6%E5%9C%BA%E7%BB%83%E4%B9%A0/"/>
+      <url>/2021/09/12/Pikachu%E9%9D%B6%E5%9C%BA%E7%BB%83%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<p>CTF小白入门靶场之一，俗称皮卡丘，记录一下搭建跟学习的过程</p><span id="more"></span><p>参考资料：</p><p><a href="https://c1everf0x.github.io/2020/09/18/pikachu%E9%9D%B6%E5%9C%BA%E9%80%9A%E5%85%B3/">pikachu靶场通关</a></p><p><a href="https://zhuanlan.zhihu.com/p/101116258">Pikachu靶场环境搭建</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CTF </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>DVWA靶场练习</title>
+      <link href="/2021/09/12/DVWA%E9%9D%B6%E5%9C%BA%E7%BB%83%E4%B9%A0/"/>
+      <url>/2021/09/12/DVWA%E9%9D%B6%E5%9C%BA%E7%BB%83%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<p>CTF小白入门靶场之一，记录一下搭建跟学习的过程</p><span id="more"></span><p>参考资料：<a href="https://www.sqlsec.com/2020/05/dvwa.html">DVWA 入门靶场学习记录</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CTF </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>portswigger学习之旅</title>
+      <link href="/2021/09/12/portswigger%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%97%85/"/>
+      <url>/2021/09/12/portswigger%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%97%85/</url>
+      
+        <content type="html"><![CDATA[<script src="/crypto-js.js"></script><script src="/mcommon.js"></script><h3 id="encrypt-message">Welcome to my blog, enter password to read.</h3><link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script> <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> <div id="security"> <div> <div class="input-group"> <input type="text" class="form-control" aria-label="Enter the password." id="pass"/> <div class="input-group-btn"> <button type="button" class="btn btn-default" onclick="decryptAES()">Decrypt</button> </div> </div> </div> </div> <div id="encrypt-blog" style="display:none"> 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 </div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 网络安全 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> CTF </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>xss靶场练习</title>
+      <link href="/2021/09/12/xss%E9%9D%B6%E5%9C%BA%E7%BB%83%E4%B9%A0/"/>
+      <url>/2021/09/12/xss%E9%9D%B6%E5%9C%BA%E7%BB%83%E4%B9%A0/</url>
+      
+        <content type="html"><![CDATA[<p>最近对xss有点兴趣，就找了几个靶场练习，并分享一下解答思路。</p><span id="more"></span><h2 id="靶场一"><a href="#靶场一" class="headerlink" title="靶场一"></a>靶场一</h2><p>平台链接：<a href="http://xss-ctf.xiejiahe.com/">xss-ctf</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ctf训练 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> xss </tag>
+            
+            <tag> ctf </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CVE-2021-33909漏洞研究</title>
       <link href="/2021/09/12/CVE-2021-33909%E6%BC%8F%E6%B4%9E%E7%A0%94%E7%A9%B6/"/>
       <url>/2021/09/12/CVE-2021-33909%E6%BC%8F%E6%B4%9E%E7%A0%94%E7%A9%B6/</url>
